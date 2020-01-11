@@ -22,26 +22,14 @@ body {
 .button {
   text-align: center;
   position: relative;
-  padding: 20px 20px;
+  width: 15%;
+  height: 10%;
   box-shadow: 0px 5px 15px black;
   display: inline-block;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 50%;
-}
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #0000ff;
-  background-color: #0000ff;
-}
-
-.button1:hover {
-  background-color: #9999ff;
-  border: 2px solid #9999ff;
-  color: white;
 }
 
 .container {
@@ -55,6 +43,12 @@ body {
   background-color: #333;
   margin: 6px 0;
   transition: 0.4s;
+}
+
+.bar1, .bar2, .bar3:hover {
+  background-color: #9999ff;
+  border: 2px solid #9999ff;
+  color: white;
 }
 
 .change .bar1 {
