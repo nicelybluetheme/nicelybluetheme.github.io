@@ -20,16 +20,13 @@ body {
 
 
 .button {
-  text-align: center;
   position: relative;
-  width: 15%;
-  height: 10%;
+  padding: 1px 15px;
   box-shadow: 0px 5px 15px black;
   display: inline-block;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 50%;
 }
 
 .container {
