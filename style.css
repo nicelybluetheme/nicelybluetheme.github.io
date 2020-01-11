@@ -34,7 +34,7 @@ body {
 .dropbtn {
   padding: 20px 20px;
   background-color:#0000ff;
-  border: 2px solid #0000ff;
+  border: none;
   border-radius: 50px;
 }
 
@@ -44,8 +44,12 @@ body {
 }
 
 .dropdown-content {
-  position: relative;
+  position: absolute;
   background-color: white;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .bar1, .bar2, .bar3 {

@@ -1,5 +1,0 @@
-      <div class="dropdown-content" style="position:fixed;top:90px;right:33px" id="myDropdown">
-        <button class="button" type="submit" onclick="window.location.href='/about.html'">
-            About
-        </button> <br>
-      </div>
