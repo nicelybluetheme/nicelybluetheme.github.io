@@ -39,10 +39,12 @@ body {
 .dropbtn {
   background-color: #3498DB;
   color: white;
-  padding: 16px;
-  font-size: 16px;
+  width: 10%;
+  height: 9%;
+  font-size: 40px;
   border: none;
   cursor: pointer;
+  border-a: 50%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
