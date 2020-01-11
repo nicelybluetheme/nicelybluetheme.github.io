@@ -13,7 +13,7 @@ h1 {
 .button {
   background-image: linear-gradient(#1a1aff, #3333ff);
   text-align: center;
-  position: fixed;
+  position: relative;
   padding: 15px 20px;
   box-shadow: 5px 10px 5px grey;
   display: inline-block;
